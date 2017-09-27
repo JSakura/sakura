@@ -1,0 +1,31 @@
+/*网页的全局样式 解决兼容问题*/
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,img,a,em,strong,*{ margin:0; padding:0;}
+body{ font-family:"宋体"; color:#000000;}
+ul,ol,li{ list-style:none;}
+html{font-size: 625%}
+input,select,textarea{ vertical-align:middle;}
+img{ border:none; vertical-align:middle;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ color:#009999;}
+.clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+.box{height: 1920px;width:  1080px;position: relative;background: url(../bg.png) no-repeat; margin: 0 auto;background-size:cover;z-index: 600;}
+.head{position: absolute;font-size:.6rem;color:#fff;left: 50%;transform: translate(-50%);width: 70%;margin-top: .4rem;}
+.head span{color: #38B9F4;}
+.top{width: 2.5rem;height:2.5rem;display: block;position: absolute;z-index: 2;border-radius: 50%;background-size:cover;}
+.top1{background:url(../img/top1.jpg);left:288px;top:183px;width: 2.3rem;height:2.3rem;background-size:cover;}
+.top2{background:url(../img/top2.jpg);left: 35px;top: 313px;width: 2.1rem;height: 2.1rem;background-size:cover;}
+.top3{background:url(../img/top3.jpg);left: 92px;top: 552px;width: 2.65rem; height: 2.65rem;background-size:cover;}
+.head1{background:url(../img/head.jpg);left: 701px;top: 913px;width: 2.3rem;height: 2.3rem;background-size:cover;}
+.head3{background:url(../img/head.jpg);left: 701px;top: 1623px;width: 2.3rem;height: 2.3rem;background-size:cover;}
+.head2{background:url(../img/head.jpg);left: 95px;top: 1263px;width: 2.3rem;height: 2.3rem;background-size:cover;}
+.main{width: 61%;position: absolute;right: 0.3rem;color: #fff;top:2rem;}
+.main h4{text-align: right;margin-right: 0.2rem;display:block;font-size: 1rem}
+.main small{text-align: right;display: block;margin-right: 0.2rem;font-size: 0.5rem;margin-top: 0.3rem;}
+.main p{font-size: 0.4rem;margin-top: 0.3rem}
+.mess{position: absolute;color: #fff;}
+.mess h4{font-size: 0.6rem;}
+.mess p{margin-top: -0.4rem;margin-left: -0.2rem;}
+.mess p a{font-size: 0.3rem;color:#fff;margin:0 0.1rem;}
+.head1-main{left:37%;transform: translate(-37%);top:50%;}
+.head2-main{left:57%;transform: translate(-57%);top:68.5%;}
+.head3-main{left:37%;transform: translate(-37%);top:87%;}
